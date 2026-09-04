@@ -1,0 +1,33 @@
+{
+  "name": "noob-steal-a-brainrot",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Modules": { "$path": "src/ReplicatedStorage/Modules" }
+    },
+
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "GameManager": { "$path": "src/ServerScriptService/GameManager.server.lua" },
+      "Modules": { "$path": "src/ServerScriptService/Modules" }
+    },
+
+    "ServerStorage": {
+      "$className": "ServerStorage",
+      "Modules": { "$path": "src/ServerStorage/Modules" }
+    },
+
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": { "$path": "src/StarterPlayer/StarterPlayerScripts" },
+      "StarterCharacterScripts": { "$path": "src/StarterPlayer/StarterCharacterScripts" }
+    },
+
+    "StarterPack": {
+      "$className": "StarterPack",
+      "Bat": { "$path": "src/StarterPack/Bat" }
+    }
+  }
+}
